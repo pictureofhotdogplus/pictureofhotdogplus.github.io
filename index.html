@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pictureofhotdog+</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+  
+    <h1>picture of hotdog</h1>
+    <p>weird and quirky hotdog showcase :D - new hotdogs every day</p>
+    <a href="testimonials.html">what our customers are saying</a> - <a href="make-a-hotdog.html">build your own hotdog</a><hr>
+    <p>select your hot dog:</p>
+    
+    <select name="forma" onchange="location = this.value;">
+      <option value="#original">Original Hot Dog</option>
+      <option value="#vac-mus">Vaccinated Mustard Hot Dog</option>
+      <option value="#cem-corn">Cemented Corn Hot Dog</option>
+      <option value="#oil-w-slugs-in">Oil With Slugs In It Hot Dog</option>
+      <option value="#muddy-red-stained-glass">Muddy Red Stained Glass Hot Dog</option>
+      <option value="#acidic-sprink">Acidic Sprinkles Hot Dog</option>
+      <option value="#fly-d-milk">Fly Drinking Milk Hot Dog</option>
+      <option value="#yolk-glued">Yolk Glued Down Hot Dog</option>
+      <option value="#dirty-salt">Dirty Salt Hot Dog</option>
+    </select>
+    <br><br>
+    <a href="#"><button onclick="topFunction()" id="myBtn" title="Go to top">scroll back up</button></a>
+    
+    <div id="original">
+      <h1 style="display:block;margin-bottom:5px;">The Original Hot Dog</h1><p style="display:inline"><i>The dog that started it all.</i></p><br><br>
+      <img src="https://i.imgur.com/o4WhKTS.jpg" style="width:250px;height:250px;" /><hr style="margin:5px;">
+    </div>
+    
+    <div id="vac-mus">
+    <h1 style="display:block;margin-bottom:5px;">The Vaccinated Mustard Hot Dog</h1><p style="display:inline"><i>I have no idea how the mustard is curing everyone. This is a miracle!</i></p><br><br>
+    <img src="https://i.imgur.com/qe0qDQ3.png" style="width:250px;height:250px;" /><hr style="margin:5px;">
+    </div>
+    
+    <div id="cem-corn">
+    <h1 style="display:block;margin-bottom:5px;">The Cemented Corn Hot Dog</h1><p style="display:inline"><i>Your teeth are going to have a field day with this one...</i></p><br><br>
+    <img src="https://i.imgur.com/Z7Vtz8r.png" style="width:250px;height:250px;" /><hr style="margin:5px;">
+    </div>
+    
+    <div id="oil-w-slugs-in">
+    <h1 style="display:block;margin-bottom:5px;">The Oil With Slugs In It Hot Dog</h1><p style="display:inline"><i>Ewwww </i>🤮<i> - If you can eat this, you are superhuman!</i></p><br><br>
+    <img src="https://i.imgur.com/frrsRTf.png" style="width:250px;height:250px;" /><hr style="margin:5px;">
+    </div>
+    
+    <div id="muddy-red-stained-glass">
+    <h1 style="display:block;margin-bottom:5px;">The Muddy Red Stained Glass Hot Dog</h1><p style="display:inline"><i>Aw man, the mud ruined my beautiful creation! Wait.. is it edible?</i></p><br><br>
+    <img src="https://i.imgur.com/9xFNDUS.png" style="width:250px;height:250px;" /><hr style="margin:5px;">
+    </div>
+    
+    <div id="acidic-sprink">
+    <h1 style="display:block;margin-bottom:5px;">The Acidic Sprinkles Hot Dog</h1><p style="display:inline"><i>Ooooh, sprinkles! This looks goo- *COUGH COUGH* AAAHHH IM DYING!!</i></p><br><br>
+    <img src="https://i.imgur.com/O1fMMEk.png" style="width:250px;height:250px;" /><hr style="margin:5px;">
+    </div>
+    
+    <div id="fly-d-milk">
+    <h1 style="display:block;margin-bottom:5px;">The Fly Drinking Milk Hot Dog</h1><p style="display:inline"><i>Bros buzzing in that milk</i></p><br><br>
+    <img src="https://i.imgur.com/7TQv3yJ.png" style="width:250px;height:250px;" /><hr style="margin:5px;">
+    </div>
+    
+    <div id="yolk-glued">
+    <h1 style="display:block;margin-bottom:5px;">The Yolk Glued Down Hot Dog</h1><p style="display:inline"><i>I'm not sure who decided to glue an egg yolk to a hot dog.. hopefully the glue is non-toxic.</i></p><br><br>
+    <img src="https://i.imgur.com/XPu4jWY.png" style="width:250px;height:250px;" /><hr style="margin:5px;">
+    </div>
+    
+    <div id="dirty-salt">
+    <h1 style="display:block;margin-bottom:5px;">The Dirty Salt Hot Dog</h1><p style="display:inline"><i>This one a salty hot dog. Why is there mud in it though?</i></p><br><br>
+    <img src="https://i.imgur.com/7FSikL7.png" style="width:250px;height:250px;" /><hr style="margin:5px;">
+    </div>
+    
+    <br><br><br><p><i>DISCLAIMER: All reviews on this website are fake. Please do not attempt to build or make any hot dogs that could potentially negatively impact your life. (The OG hot dog is safe though.)</i></p>
+    
+    
+    <!-- neocities logo -->
+    <img src="/neocities.png">
+    
+    <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+</html>
